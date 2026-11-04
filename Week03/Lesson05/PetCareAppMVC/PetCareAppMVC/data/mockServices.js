@@ -1,0 +1,8 @@
+// Mock service catalogue - the server's source of truth for prices
+const services = [
+  { id: 1, name: 'Vaccination', price: 35 },
+  { id: 2, name: 'Pet Grooming', price: 50 },
+  { id: 3, name: 'Boarding', price: 80 }
+];
+
+module.exports = services;
